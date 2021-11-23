@@ -32,7 +32,7 @@ MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY')
 MAILCHIMP_DATA_CENTER = os.environ.get('MAILCHIMP_DATA_CENTER')
 MAILCHIMP_EMAIL_LIST_ID = os.environ.get('MAILCHIMP_EMAIL_LIST_ID')
 MAILCHIMP_DEFAULT_TAGS = tuple(os.environ.get(
-    'MAILCHIMP_DEFAULT_TAGS', 'ONEOF,signup').split(','))
+    'MAILCHIMP_DEFAULT_TAGS', 'tag1,tag2').split(','))
 
 # Application definition
 
